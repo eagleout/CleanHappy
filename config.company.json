@@ -1,0 +1,99 @@
+{
+  "company": {
+    "name": "OMA SERVICES",
+    "slogan": "La propreté, notre engagement",
+    "logo": "",
+    "primaryColor": "#1a6b4a",
+    "secondaryColor": "#f0a500",
+    "accentColor": "#e8f5e9",
+    "address": "12 rue des Lilas, 94000 Créteil",
+    "phone": "01 48 00 00 00",
+    "email": "contact@oma-services.fr",
+    "siret": "123 456 789 00001",
+    "timezone": "Europe/Paris",
+    "currency": "EUR",
+    "locale": "fr-FR"
+  },
+  "business": {
+    "defaultSpeedM2PerHour": 150,
+    "defaultHourlyCost": 16.5,
+    "defaultMarginPercent": 35,
+    "travelTimeMinutesDefault": 20,
+    "workdayStartHour": 7,
+    "workdayEndHour": 20,
+    "maxHoursPerDay": 10,
+    "overtimeMultiplier": 1.25
+  },
+  "prestationTypes": [
+    { "id": "menage_courant", "label": "Ménage courant", "icon": "🧹", "speedM2PerHour": 150, "color": "#4CAF50" },
+    { "id": "vitres", "label": "Nettoyage vitres", "icon": "🪟", "speedM2PerHour": 80, "color": "#2196F3" },
+    { "id": "remise_en_etat", "label": "Remise en état", "icon": "🔧", "speedM2PerHour": 60, "color": "#FF5722" },
+    { "id": "bureau", "label": "Bureaux / Tertiaire", "icon": "🏢", "speedM2PerHour": 180, "color": "#9C27B0" },
+    { "id": "blanchisserie", "label": "Blanchisserie", "icon": "🧺", "speedM2PerHour": null, "color": "#00BCD4" },
+    { "id": "desinfection", "label": "Désinfection", "icon": "🧪", "speedM2PerHour": 100, "color": "#F44336" },
+    { "id": "espaces_verts", "label": "Espaces verts", "icon": "🌿", "speedM2PerHour": 200, "color": "#8BC34A" }
+  ],
+  "skillLevels": [
+    { "id": 1, "label": "Débutant", "color": "#78909C" },
+    { "id": 2, "label": "Confirmé", "color": "#42A5F5" },
+    { "id": 3, "label": "Expert", "color": "#66BB6A" },
+    { "id": 4, "label": "Chef d'équipe", "color": "#FFA726" }
+  ],
+  "zones": [
+    { "id": "z1", "label": "Paris Centre", "postalCodes": ["75001","75002","75003","75004"] },
+    { "id": "z2", "label": "Paris Est", "postalCodes": ["75011","75012","75019","75020"] },
+    { "id": "z3", "label": "Val-de-Marne", "postalCodes": ["94000","94100","94200","94300","94400"] },
+    { "id": "z4", "label": "Seine-Saint-Denis", "postalCodes": ["93100","93200","93300"] },
+    { "id": "z5", "label": "Essonne", "postalCodes": ["91000","91100","91200"] }
+  ],
+  "missionStatuses": [
+    { "id": "planifiee", "label": "Planifiée", "color": "#2196F3", "icon": "📋" },
+    { "id": "en_cours", "label": "En cours", "color": "#FF9800", "icon": "⏳" },
+    { "id": "terminee", "label": "Terminée", "color": "#4CAF50", "icon": "✅" },
+    { "id": "controlee", "label": "Contrôlée", "color": "#9C27B0", "icon": "🔍" },
+    { "id": "facturable", "label": "Facturable", "color": "#00BCD4", "icon": "💶" },
+    { "id": "annulee", "label": "Annulée", "color": "#F44336", "icon": "❌" }
+  ],
+  "checklistTemplates": {
+    "menage_courant": [
+      "Aspirer moquettes et sols",
+      "Laver les sols durs",
+      "Dépoussiérer mobilier et surfaces",
+      "Nettoyer sanitaires",
+      "Vider poubelles",
+      "Nettoyer points de contact (poignées, interrupteurs)",
+      "Aérer les pièces"
+    ],
+    "vitres": [
+      "Nettoyer vitres intérieures",
+      "Nettoyer vitres extérieures",
+      "Nettoyer cadres et rebords",
+      "Enlever traces et marques"
+    ],
+    "bureau": [
+      "Aspirer sols et moquettes",
+      "Dépoussiérer bureaux et écrans",
+      "Nettoyer sanitaires et cuisine",
+      "Vider corbeilles",
+      "Réapprovisionner consommables (savon, papier)",
+      "Nettoyer salle de réunion"
+    ],
+    "remise_en_etat": [
+      "Décapage des sols",
+      "Traitement anti-calcaire",
+      "Nettoyage en profondeur cuisine",
+      "Nettoyage en profondeur sanitaires",
+      "Dégraissage surfaces",
+      "Nettoyage vitres",
+      "Traitement moisissures si présentes"
+    ]
+  },
+  "kpiTargets": {
+    "missionCompletionRate": 95,
+    "qualityScoreMin": 8,
+    "punctualityRate": 90,
+    "stockAlertThreshold": 20,
+    "monthlyRevenueTarget": 25000
+  },
+  "i18n": "fr"
+}
